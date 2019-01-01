@@ -39,12 +39,16 @@ public func exportShortcut(_ actionContainer: ActionContainer) -> Data {
     return try! PropertyListSerialization.data(fromPropertyList: buildShortcut(actionContainer), format: .binary, options: 0)
 }
 
+public func exportShortcut(_ shortcut: PropertyList) -> Data {
+    return try! PropertyListSerialization.data(fromPropertyList: shortcut, format: .binary, options: 0)
+}
+
 #if canImport(PlaygroundSupport)
 
 import PlaygroundSupport
 
 public func shareShortcut(_ shortcut: PropertyList, named name: String) {
-    let data = try! PropertyListSerialization.data(fromPropertyList: shortcut, format: .binary, options: 0)
+    let data = exportShortcut(shortcut)
     if let remoteView = PlaygroundPage.current.liveView as? PlaygroundRemoteLiveViewProxy {
         remoteView.send(.dictionary(["name": .string(name), "data": .data(data)]))
     }

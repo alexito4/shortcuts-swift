@@ -86,6 +86,7 @@
 		98D33C2F21D3EFF100824660 /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
 		98D33C3321D4067C00824660 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		FBDA8D4221DCCA9E00303374 /* AggrandizementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggrandizementTests.swift; sourceTree = "<group>"; };
+		FB7EE87321DC326B00C079C7 /* ShortcutsSwiftXcode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ShortcutsSwiftXcode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +121,7 @@
 		5502FF7C21D0F06500CE7544 = {
 			isa = PBXGroup;
 			children = (
+				FB7EE87321DC326B00C079C7 /* ShortcutsSwiftXcode.playground */,
 				5502FFF221D0F58400CE7544 /* ShortcutsSwift.playgroundbook */,
 				5502FFED21D0F2AB00CE7544 /* Helpers */,
 				5502FFC021D0F1A300CE7544 /* Sources */,
