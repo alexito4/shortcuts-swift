@@ -46,6 +46,15 @@ class AggrandizementTests: XCTestCase {
         )
     }
     
+    func testCustomStringProperty() {
+        let result = actionOutput()
+        let title = result.with(propertyName: .custom("Title"), userInfo: .string("title"))
+        _ = buildShortcut(
+            getBatteryLevel().savingOutput(to: result)
+                + showResult("Test Aggrandizements \(title)")
+        )
+    }
+    
     func testCoercion() {
         let result = actionOutput()
         let coercion = result.with(type: .article)

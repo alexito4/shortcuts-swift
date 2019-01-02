@@ -107,12 +107,14 @@ public enum Aggrandizement {
         case fileSize
         case fileExtension
         case number(Number)
+        case string(String)
 
         var propertyListValue: Any {
             switch self {
             case .fileSize: return "WFFileSizeProperty"
             case .fileExtension: return "WFFileExtensionProperty"
             case .number(let number): return number
+            case .string(let string): return string
             }
         }
     }
