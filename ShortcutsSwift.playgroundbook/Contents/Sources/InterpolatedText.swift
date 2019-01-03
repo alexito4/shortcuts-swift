@@ -1,6 +1,6 @@
 import Foundation
 
-public func withInterpolatedText(_ string: String) -> Any {
+func withInterpolatedText(_ string: String) -> Any {
     var result = string
     var attachments = [String: Any]()
 

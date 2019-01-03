@@ -38,6 +38,9 @@
 		98D33C2B21D3E34100824660 /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2A21D3E34100824660 /* Repeat.swift */; };
 		98D33C3021D3EFF100824660 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2F21D3EFF100824660 /* Calculate.swift */; };
 		98D33C3421D4067C00824660 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C3321D4067C00824660 /* List.swift */; };
+		FB651C2721DE29D20029DAE6 /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB651C2621DE29D20029DAE6 /* Twitter.swift */; };
+		FB651C2921DE2A810029DAE6 /* GetText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB651C2821DE2A810029DAE6 /* GetText.swift */; };
+		FB651C2B21DE2AAF0029DAE6 /* GetCurrentSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB651C2A21DE2AAF0029DAE6 /* GetCurrentSong.swift */; };
 		FBDA8D4321DCCA9E00303374 /* AggrandizementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA8D4221DCCA9E00303374 /* AggrandizementTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +88,9 @@
 		98D33C2A21D3E34100824660 /* Repeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeat.swift; sourceTree = "<group>"; };
 		98D33C2F21D3EFF100824660 /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
 		98D33C3321D4067C00824660 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		FB651C2621DE29D20029DAE6 /* Twitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter.swift; sourceTree = "<group>"; };
+		FB651C2821DE2A810029DAE6 /* GetText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetText.swift; sourceTree = "<group>"; };
+		FB651C2A21DE2AAF0029DAE6 /* GetCurrentSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCurrentSong.swift; sourceTree = "<group>"; };
 		FBDA8D4221DCCA9E00303374 /* AggrandizementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggrandizementTests.swift; sourceTree = "<group>"; };
 		FB7EE87321DC326B00C079C7 /* ShortcutsSwiftXcode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ShortcutsSwiftXcode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -186,6 +192,9 @@
 				5502FFD021D0F1A400CE7544 /* Share.swift */,
 				5502FFD121D0F1A400CE7544 /* ShowResult.swift */,
 				98D33C2821D3DA0A00824660 /* SplitText.swift */,
+				FB651C2821DE2A810029DAE6 /* GetText.swift */,
+				FB651C2A21DE2AAF0029DAE6 /* GetCurrentSong.swift */,
+				FB651C2621DE29D20029DAE6 /* Twitter.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -334,11 +343,14 @@
 				5502FFEC21D0F29700CE7544 /* PlaygroundSupport.swift in Sources */,
 				5502FFEA21D0F1A400CE7544 /* Action.swift in Sources */,
 				83F8639821D15F7E00925583 /* Dictionary.swift in Sources */,
+				FB651C2921DE2A810029DAE6 /* GetText.swift in Sources */,
 				98D33C3421D4067C00824660 /* List.swift in Sources */,
 				98D33C2B21D3E34100824660 /* Repeat.swift in Sources */,
+				FB651C2721DE29D20029DAE6 /* Twitter.swift in Sources */,
 				5502FFE421D0F1A400CE7544 /* Share.swift in Sources */,
 				98D33C2921D3DA0A00824660 /* SplitText.swift in Sources */,
 				5502FFDD21D0F1A400CE7544 /* CopyToClipboard.swift in Sources */,
+				FB651C2B21DE2AAF0029DAE6 /* GetCurrentSong.swift in Sources */,
 				5502FFDF21D0F1A400CE7544 /* Comment.swift in Sources */,
 				5502FFE321D0F1A400CE7544 /* ChooseFromMenu.swift in Sources */,
 				5502FFD721D0F1A400CE7544 /* ShortcutShareViewController.swift in Sources */,
